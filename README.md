@@ -1,57 +1,16 @@
-setiment_analysis_amazon_reviews
-==============================
+Abstract
+=======================
 
-00
+Predicting the type of sentiment associated with the reviews provided by the users on a cell phone through Amazon website. Multinomial Naive Bayes model was trained for the prediction as the scenario involved text classification. This prediction would be useful for a new user who is trying to look for specific things before buying a new cell phone online by automatically identifying the prominent emotion of the review. 
 
-Project Organization
-------------
+Introduction
+=======================
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
+Whenever a user tries to find a reliable review before buying a cellphone online, it becomes very confusing as the number of reviews of all phones by famous brands would be very large in number. It becomes cumbersome to go through each review; this model becomes very useful as people can filter out which type and brand of phone they want/do not want to use.
 
 
---------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+Source of Data, Characteristics of Data
+=======================
+•	The data was inspired from Kaggle.com which describes the reviews of user who bought cellphone via Amazon. Link: https://www.kaggle.com/grikomsn/amazon-cell-phones-reviews
+•	The data included labels like Brand, Reviews, Rating, Image, URL, etc. with sample size of around 82,000. There were two datasets namely items and reviews
+•	There was a total of 10 brands, with a total of 792 items. 
