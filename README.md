@@ -11,6 +11,6 @@ Whenever a user tries to find a reliable review before buying a cellphone online
 
 Source of Data, Characteristics of Data
 =======================
-•	The data was inspired from Kaggle.com which describes the reviews of user who bought cellphone via Amazon. Link: https://www.kaggle.com/grikomsn/amazon-cell-phones-reviews
-•	The data included labels like Brand, Reviews, Rating, Image, URL, etc. with sample size of around 82,000. There were two datasets namely items and reviews
+•	The data was inspired from Kaggle.com which describes the reviews of user who bought cellphone via Amazon. Link: https://www.kaggle.com/grikomsn/amazon-cell-phones-reviews<br>
+•	The data included labels like Brand, Reviews, Rating, Image, URL, etc. with sample size of around 82,000. There were two datasets namely items and reviews<br>
 •	There was a total of 10 brands, with a total of 792 items. 
